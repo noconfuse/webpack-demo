@@ -1,0 +1,35 @@
+.container {
+    width : 1200px;
+    margin: 0 auto;
+}
+
+.authorBox {
+    width        : 500px;
+    height       : 400px;
+    position     : absolute;
+    left         : 50%;
+    top          : 50%;
+    transform    : translate(-50%, -50%);
+    box-shadow   : 0 0 10px rgba(20, 50, 21, 0.8);
+    border-radius: 4px;
+
+    .avator {
+        width          : 50px;
+        height         : 50px;
+        border-radius  : 50%;
+        overflow       : hidden;
+        display        : flex;
+        justify-content: center;
+        align-content  : center;
+
+        img {
+            width : 100%;
+            height: auto;
+        }
+    }
+}
+
+
+:global(.title) {
+    font-size: 24px;
+}
